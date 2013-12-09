@@ -1,0 +1,26 @@
+{
+  "name": "aPachas",
+  "developer": {
+    "name": "Carmen Jimenez Cabezas",
+    "url": "https://github.com/mcjimenez/aPachas"
+  },
+  "type": "privileged",
+  "icons": {
+    "60": "/icons/moneyBag.png",
+    "128": "/icons/moneyBag.png"
+  },
+  "launch_path": "/index.html",
+  "description": "aPachas allows you to share costs in various situations.",
+  "version": "v0.0.1",
+  "default_locale": "en",
+  "permissions": {
+    "contacts": {
+      "description": "Required for looking for new contacts.",
+      "access": "readonly"
+    },
+    "device-storage:sdcard": {
+      "description": "Required for file handling",
+      "access": "readwrite"
+    }
+  }
+}
